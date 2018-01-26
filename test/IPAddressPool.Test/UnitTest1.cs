@@ -14,7 +14,7 @@ namespace IPAddressPool.Test
 
 			bool result = IPPoolHelper.Current.IsExists(IPAddress.Parse("41.157.0.128"), "region1"); //O(1) or log(n)
 
-			bool result2 = IPPoolHelper.Current.IsExists("41.157.0.128/12");
+			bool result2 = IPPoolHelper.Current.IsExists("41.157.0.128");
 
 			Assert.True(result);
 			Assert.True(result2);
