@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard1.3</TargetFramework>
+    <Authors>Nemi Chand</Authors>
+    <PackageProjectUrl>https://github.com/nemi-chand/IPAddressPool</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nemi-chand/IPAddressPool</RepositoryUrl>
+    <PackageTags>IPAddress,IPAddress Pool,IPAddress ranges,IP Address,IPAddress Wrapper,IPAddress Helper</PackageTags>
+    <Version>1.0.0-pre</Version>
+    <Description>IPAddress Pool Wrapper allows you to parse or check IPAddress from list of IP Pools/Ranges in multiple regions. it also support files such as json and text file for large IP Ranges/Pools.
+IPAddress Supported formats like 192.168.0.0/13, 192.168.0.0/255.248.0.0, 192.168.0.0-192.168.0.128</Description>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageLicenseUrl>https://github.com/nemi-chand/IPAddressPool/blob/master/LICENSE</PackageLicenseUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>Copyright © Nemi Chand 2018</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
