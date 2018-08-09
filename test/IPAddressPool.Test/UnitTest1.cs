@@ -27,10 +27,10 @@ namespace IPAddressPool.Test
 
 			string regionName = IPPoolHelper.Current.GetRegion("41.157.0.128");
 
-			Assert.Equal(regionName, "region1");
+			Assert.Equal("region1", regionName);
 		}
 		
-		public void BootstrapIPPoolWrapper()
+		private void BootstrapIPPoolWrapper()
 		{
 			//bootstarp the ip helper
 			//IPPoolWrapper.IPPoolHelper.Initialize("IpList.json","idea");
