@@ -1,7 +1,10 @@
 language: csharp
+sudo: false
+dist: trusty
 mono: none
-script:
- - dotnet restore
+os:
+- linux
+- osx
 branches:
   only:
   - master
