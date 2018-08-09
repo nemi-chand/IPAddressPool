@@ -2,3 +2,7 @@ configuration: Release
 version: 1.0.{build}
 build:
   verbosity: minimal
+
+platform: Any CPU
+
+image: Visual Studio 2017
