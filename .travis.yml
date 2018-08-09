@@ -2,3 +2,6 @@ language: csharp
 mono: none
 script:
  - dotnet restore
+branches:
+  only:
+  - master
