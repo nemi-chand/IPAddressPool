@@ -1,8 +1,11 @@
 language: csharp
 sudo: false
 dist: trusty
+dotnet: 2.1.0
 mono:
   - latest
+install:
+- dotnet restore
 script:
     - xbuild /p:Configuration=Release $TRAVIS_SOLUTION
 os:
