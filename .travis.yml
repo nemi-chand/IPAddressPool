@@ -2,6 +2,10 @@ language: csharp
 sudo: false
 dist: trusty
 mono: none
+install:
+    - nuget restore $TRAVIS_SOLUTION
+script:
+    - xbuild /p:Configuration=Release $TRAVIS_SOLUTION
 os:
 - linux
 - osx
