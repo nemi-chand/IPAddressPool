@@ -1,7 +1,8 @@
 language: csharp
 sudo: false
 dist: trusty
-mono: none
+mono:
+  - latest
 script:
     - xbuild /p:Configuration=Release $TRAVIS_SOLUTION
 os:
