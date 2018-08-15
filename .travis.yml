@@ -7,7 +7,7 @@ mono:
 install:
 - dotnet restore
 script:
-    - xbuild /p:Configuration=Release $TRAVIS_SOLUTION
+    - msbuild /p:Configuration=Release $TRAVIS_SOLUTION
 os:
 - linux
 - osx
